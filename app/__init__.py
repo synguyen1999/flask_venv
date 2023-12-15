@@ -4,7 +4,7 @@ import pickle
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 
 # Load the model during app initialization
